@@ -1,0 +1,6 @@
+{
+    "name": "react-strapi-001",
+    "private": true,
+    "workspaces": ["frontend", "backend"]
+  }
+  
