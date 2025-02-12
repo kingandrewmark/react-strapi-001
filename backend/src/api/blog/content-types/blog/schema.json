@@ -18,22 +18,19 @@
     "content": {
       "type": "text"
     },
-    "slug": {
-      "type": "string",
-      "unique": true
-    },
     "published": {
       "type": "datetime"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
