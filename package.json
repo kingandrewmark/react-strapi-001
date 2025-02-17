@@ -9,6 +9,7 @@
     "build": "npm run build -w frontend && npm run build -w backend"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "pg": "^8.13.3",
     "pg-connection-string": "^2.7.0"
   }
